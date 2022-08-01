@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color:  #fad744;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%
+}
+.bg{
+    background-color: #54c3ef;
+    width: 100vw;
+    min-height: 100vh;
+    place-items: center;
+    display: grid;
+}
+.scorecard{
+    font-size: 20px;
+    margin-top:25px;
+    margin-left:38%;
+    background-color: #fff;
+    color: black;
+    padding:50px 20px ;
+    align-items: top;
+    border-radius: 5px;
+    position: sticky;
+}
+.para{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#result{
+    margin-top: 20px;
+    margin-left:35%;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.main-div{
+   background-color: #2b3252;
+   padding: 30px 20px ;
+   width:30vw;
+   min-height:50vh;
+   position:sticky;
+   border-radius: 10px;
+   margin-top:-150px;
+   
+   
+}
+@media screen and (max-width: 80px){
+    .main-div{
+        width:80%;
+        margin-top: 50px;
+    }
+    .scorecard{
+        
+        margin-top: 30px;
+    }
+    
+
+   
+}
+    
+
+
+.quiz-heading{
+   font-family: 'Caveat', cursive;
+   font-style: bold;
+   font-size: 50px;
+   text-align: center;
+   justify-content: center;
+   margin-top: 10px;
+}
+.score-card{
+    margin-top: 70px;
+    margin-left:35%;
+    background-color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px 8px;
+}
+    
+.heading2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.hr{
+    color:#fad744; ;
+}
+.heading1{
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 10px;
+}
+.heading2 p{
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+.button{
+    margin-left: 40%;
+    border-radius: 5px;
+    background-color: #fad744;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    align-items: center;
+}
